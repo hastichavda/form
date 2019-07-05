@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title> welcome</title>
+        
+    </head>
+    <body>
+            welcome...</br>
+
+            Name : &nbsp;<span id="result"></span></br>
+            Email :  &nbsp;<span id="result1"></span></br>
+            Password: &nbsp;<span id="result2"></span></br>
+            Conatact : &nbsp;<span id="result3"></span></br>
+            Address : &nbsp;<span id="result4"></span></br>
+            <script>
+                document.getElementById("result").innerHTML = localStorage.getItem("textvalue");
+                document.getElementById("result1").innerHTML = localStorage.getItem("textvalue1");
+                document.getElementById("result2").innerHTML = localStorage.getItem("textvalue2");
+                document.getElementById("result3").innerHTML = localStorage.getItem("textvalue3");
+                document.getElementById("result4").innerHTML = localStorage.getItem("textvalue4");
+            </script>
+    </body>
+</html>
